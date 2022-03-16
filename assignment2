@@ -1,0 +1,13 @@
+s=input()
+l=list(s)
+o=[]
+e=[]
+for i in l:
+    if int(i)%2==0:
+        e.append(i)
+    if int(i)%2==1:
+        o.append(i)
+for i in o:
+    print(i,end='')
+for i in e:
+    print(i,end='')
